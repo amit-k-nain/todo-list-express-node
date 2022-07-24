@@ -1,0 +1,41 @@
+body {
+    background-color:aliceblue;
+    margin:0auto;
+    padding:20px;
+    box-sizing:border-box;
+    text-align: center;
+}
+
+input[type="text"]{
+    width:300px;
+    padding:16px;
+    font-size:21px;
+}
+   
+form {
+    text-align:center;
+}
+
+button {
+    padding:16px;
+    background:green;
+    color:#fff;
+    cursor:pointer;
+    font-size:21px;   
+}
+
+ul{
+    list-style-type:none;
+}
+
+li{
+    width:100%;
+    padding:21px;
+    box-sizing:border-box;
+    cursor:pointer;
+}
+
+li:hover{
+    text-decoration:line-through;
+    background:grey;
+}
